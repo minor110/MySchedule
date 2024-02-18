@@ -41,6 +41,7 @@
 		DFF241C02B828CE60010F938 = {
 			isa = PBXGroup;
 			children = (
+				DFF241E02B828E170010F938 /* README.md */,
 				DFF241CB2B828CE60010F938 /* MySchedule */,
 				DFF241CA2B828CE60010F938 /* Products */,
 			);
@@ -64,7 +65,6 @@
 				DFF241D52B828CE70010F938 /* Assets.xcassets */,
 				DFF241D72B828CE70010F938 /* LaunchScreen.storyboard */,
 				DFF241DA2B828CE70010F938 /* Info.plist */,
-				DFF241E02B828E170010F938 /* README.md */,
 			);
 			path = MySchedule;
 			sourceTree = "<group>";

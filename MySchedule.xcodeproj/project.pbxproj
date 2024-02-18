@@ -24,6 +24,7 @@
 		DFF241D52B828CE70010F938 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		DFF241D82B828CE70010F938 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		DFF241DA2B828CE70010F938 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DFF241E02B828E170010F938 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +64,7 @@
 				DFF241D52B828CE70010F938 /* Assets.xcassets */,
 				DFF241D72B828CE70010F938 /* LaunchScreen.storyboard */,
 				DFF241DA2B828CE70010F938 /* Info.plist */,
+				DFF241E02B828E170010F938 /* README.md */,
 			);
 			path = MySchedule;
 			sourceTree = "<group>";

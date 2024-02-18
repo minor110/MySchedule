@@ -1,5 +1,5 @@
 //
-//  ViewController.swift
+//  TasksViewController.swift
 //  MySchedule
 //
 //  Created by Sergey Filippov on 18.02.2024.
@@ -7,14 +7,13 @@
 
 import UIKit
 
-class ViewController: UIViewController {
+class TasksViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
        
-        view.backgroundColor = .red
+        view.backgroundColor = .systemBackground
+        
+        title = "Tasks"
     }
-
-
 }
-

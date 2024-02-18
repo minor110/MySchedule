@@ -9,20 +9,26 @@
 /* Begin PBXBuildFile section */
 		DFF241CD2B828CE60010F938 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFF241CC2B828CE60010F938 /* AppDelegate.swift */; };
 		DFF241CF2B828CE60010F938 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFF241CE2B828CE60010F938 /* SceneDelegate.swift */; };
-		DFF241D12B828CE60010F938 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFF241D02B828CE60010F938 /* ViewController.swift */; };
+		DFF241D12B828CE60010F938 /* MainTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFF241D02B828CE60010F938 /* MainTabBarController.swift */; };
 		DFF241D62B828CE70010F938 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DFF241D52B828CE70010F938 /* Assets.xcassets */; };
 		DFF241D92B828CE70010F938 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DFF241D72B828CE70010F938 /* LaunchScreen.storyboard */; };
+		DFF241E52B8297000010F938 /* ScheduleViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFF241E42B8297000010F938 /* ScheduleViewController.swift */; };
+		DFF241E72B8297220010F938 /* TasksViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFF241E62B8297220010F938 /* TasksViewController.swift */; };
+		DFF241E92B8297330010F938 /* ContactsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFF241E82B8297330010F938 /* ContactsViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		DFF241C92B828CE60010F938 /* MySchedule.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MySchedule.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DFF241CC2B828CE60010F938 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		DFF241CE2B828CE60010F938 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		DFF241D02B828CE60010F938 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		DFF241D02B828CE60010F938 /* MainTabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTabBarController.swift; sourceTree = "<group>"; };
 		DFF241D52B828CE70010F938 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		DFF241D82B828CE70010F938 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		DFF241DA2B828CE70010F938 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		DFF241E02B828E170010F938 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		DFF241E42B8297000010F938 /* ScheduleViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScheduleViewController.swift; sourceTree = "<group>"; };
+		DFF241E62B8297220010F938 /* TasksViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TasksViewController.swift; sourceTree = "<group>"; };
+		DFF241E82B8297330010F938 /* ContactsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactsViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -75,7 +81,10 @@
 		DFF241E22B8293840010F938 /* Controllers */ = {
 			isa = PBXGroup;
 			children = (
-				DFF241D02B828CE60010F938 /* ViewController.swift */,
+				DFF241D02B828CE60010F938 /* MainTabBarController.swift */,
+				DFF241E42B8297000010F938 /* ScheduleViewController.swift */,
+				DFF241E62B8297220010F938 /* TasksViewController.swift */,
+				DFF241E82B8297330010F938 /* ContactsViewController.swift */,
 			);
 			path = Controllers;
 			sourceTree = "<group>";
@@ -160,9 +169,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DFF241D12B828CE60010F938 /* ViewController.swift in Sources */,
+				DFF241D12B828CE60010F938 /* MainTabBarController.swift in Sources */,
 				DFF241CD2B828CE60010F938 /* AppDelegate.swift in Sources */,
+				DFF241E72B8297220010F938 /* TasksViewController.swift in Sources */,
 				DFF241CF2B828CE60010F938 /* SceneDelegate.swift in Sources */,
+				DFF241E52B8297000010F938 /* ScheduleViewController.swift in Sources */,
+				DFF241E92B8297330010F938 /* ContactsViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
